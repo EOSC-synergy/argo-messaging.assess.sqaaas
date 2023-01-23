@@ -1,4 +1,4 @@
 (
-cd github.com/argoeu/argo-messaging &&
+cd github.com/ARGOeu/argo-messaging &&
     git rev-parse --is-inside-work-tree
 )
