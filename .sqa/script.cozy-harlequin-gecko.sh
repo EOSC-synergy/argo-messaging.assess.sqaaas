@@ -1,4 +1,4 @@
 (
-cd github.com/agelostsal/argo-messaging &&
+cd github.com/ARGOeu/argo-messaging &&
     licensee detect . --confidence 60 --json
 )
