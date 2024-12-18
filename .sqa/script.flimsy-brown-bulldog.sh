@@ -5,5 +5,5 @@
 
 (
 cd github.com/ARGOeu/argo-messaging &&
-    tox -c tox.ini -e
+    pytest  --json-report  --json-report-indent 4
 )
