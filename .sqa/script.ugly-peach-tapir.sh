@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/argoeu/argo-messaging &&
-    pytest  --json-report  --json-report-indent 4
+cd github.com/ARGOeu/argo-messaging &&
+    find_doc_files.py --file_type all
 )

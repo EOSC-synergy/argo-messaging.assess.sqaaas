@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/argoeu/argo-messaging &&
-    git rev-parse --is-inside-work-tree 
+cd github.com/ARGOeu/argo-messaging &&
+    jsonlint-cli "**/*.json"
 )

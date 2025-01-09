@@ -1,86 +1,86 @@
 config:
   credentials: []
   project_repos:
+    github.com/ARGOeu/argo-messaging:
+      branch: devel
+      repo: https://github.com/ARGOeu/argo-messaging
     github.com/EOSC-synergy/sqaaas-tooling:
       branch: main
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
-    github.com/argoeu/argo-messaging:
-      branch: devel
-      repo: https://github.com/argoeu/argo-messaging
 environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
 sqa_criteria:
   QC.Acc:
     repos:
-      github.com/argoeu/argo-messaging git:
+      github.com/ARGOeu/argo-messaging git:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-cerise-dalmatian.sh
-        container: qc.acc_goopy-vermilion-stoat
+        - /usr/bin/env sh .sqa/script.hasty-gold-setter.sh
+        container: qc.acc_snappy-khaki-cassowary
   QC.Doc:
     repos:
-      github.com/argoeu/argo-messaging find_doc_files.py:
+      github.com/ARGOeu/argo-messaging find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hilly-linen-indri.sh
-        container: qc.doc_freaky-burgundy-booby
-      github.com/argoeu/argo-messaging git:
+        - /usr/bin/env sh .sqa/script.ugly-peach-tapir.sh
+        container: qc.doc_bumpy-auburn-rat
+      github.com/ARGOeu/argo-messaging git:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-lavender-millipede.sh
-        container: qc.doc_skimpy-orange-tzu
-      github.com/argoeu/argo-messaging markdownlint:
+        - /usr/bin/env sh .sqa/script.cranky-azure-newfoundland.sh
+        container: qc.doc_stealthy-turquoise-spitz
+      github.com/ARGOeu/argo-messaging markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-pink-sloth.sh
-        container: qc.doc_whiny-gold-rattlesnake
+        - /usr/bin/env sh .sqa/script.greasy-bronze-spitz.sh
+        container: qc.doc_cozy-cyan-goose
   QC.Lic:
     repos:
-      github.com/argoeu/argo-messaging licensee:
+      github.com/ARGOeu/argo-messaging licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-bistre-tapir.sh
-        container: qc.lic_nippy-cream-angora
+        - /usr/bin/env sh .sqa/script.nippy-red-uakari.sh
+        container: qc.lic_sleazy-chocolate-gharial
   QC.Met:
     repos:
-      github.com/argoeu/argo-messaging cff-converter-python:
+      github.com/ARGOeu/argo-messaging cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-cinnamon-starfish.sh
-        container: qc.met_sickly-razzmatazz-reindeer
-      github.com/argoeu/argo-messaging validate_codemeta:
+        - /usr/bin/env sh .sqa/script.lanky-cerulean-cuttlefish.sh
+        container: qc.met_scummy-gold-coati
+      github.com/ARGOeu/argo-messaging validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-heliotrope-corgi.sh
-        container: qc.met_snazzy-olive-cattle
+        - /usr/bin/env sh .sqa/script.tacky-bronze-affenpinscher.sh
+        container: qc.met_freaky-lilac-yak
   QC.Sec:
     repos:
-      github.com/argoeu/argo-messaging bandit:
+      github.com/ARGOeu/argo-messaging bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-tangerine-newfoundland.sh
-        container: qc.sec_sleepy-denim-whale
-      github.com/argoeu/argo-messaging gosec:
+        - /usr/bin/env sh .sqa/script.droopy-harlequin-whippet.sh
+        container: qc.sec_whiny-cerise-sheepdog
+      github.com/ARGOeu/argo-messaging gosec:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-emerald-schnauzer.sh
-        container: qc.sec_paltry-chocolate-gharial
+        - /usr/bin/env sh .sqa/script.stuffy-olive-albatross.sh
+        container: qc.sec_bluesy-thistle-spaniel
   QC.Sty:
     repos:
-      github.com/argoeu/argo-messaging flake8:
+      github.com/ARGOeu/argo-messaging flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-amaranth-dragon.sh
-        container: qc.sty_skanky-ecru-husky
-      github.com/argoeu/argo-messaging jsonlint:
+        - /usr/bin/env sh .sqa/script.grumpy-tomato-orangutan.sh
+        container: qc.sty_leaky-thistle-chinchilla
+      github.com/ARGOeu/argo-messaging jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-bronze-earwig.sh
-        container: qc.sty_stuffy-burgundy-zonkey
-      github.com/argoeu/argo-messaging staticcheck:
+        - /usr/bin/env sh .sqa/script.woozy-blue-affenpinscher.sh
+        container: qc.sty_muzzy-cerise-alligator
+      github.com/ARGOeu/argo-messaging staticcheck:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-lemon-mist.sh
-        container: qc.sty_frumpy-wheat-labradoodle
+        - /usr/bin/env sh .sqa/script.scanty-taupe-sheepdog.sh
+        container: qc.sty_squirrely-lime-skunk
   QC.Uni:
     repos:
-      github.com/argoeu/argo-messaging pytest:
+      github.com/ARGOeu/argo-messaging pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-aqua-birman.sh
-        container: qc.uni_gimpy-buff-dingo
+        - /usr/bin/env sh .sqa/script.geeky-apricot-argentino.sh
+        container: qc.uni_woolly-wisteria-buffalo
   QC.Ver:
     repos:
-      github.com/argoeu/argo-messaging get_git_tags.py:
+      github.com/ARGOeu/argo-messaging get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-carmine-olm.sh
-        container: qc.ver_craggy-sangria-dogfish
+        - /usr/bin/env sh .sqa/script.beady-celadon-worm.sh
+        container: qc.ver_stealthy-olive-abyssinian
 timeout: 5400

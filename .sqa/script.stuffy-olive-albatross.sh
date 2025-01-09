@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/argoeu/argo-messaging &&
-    licensee detect . --confidence 60 --json 
+cd github.com/ARGOeu/argo-messaging &&
+    gosec -fmt json -severity high -quiet  ./...
 )
