@@ -3,7 +3,7 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/argo-messaging.assess.sqaaas/master/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/argo-messaging.assess.sqaaas/master/.report/assessment_output.json",
-        "timestamp": 1782198420.8891673
+        "timestamp": 1782198580.354014
     },
     "repository": [
         {
@@ -4964,24 +4964,24 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "id": "6a3a3096cd5cc2e6116844af",
-                "entityId": "iOpz-AhlQh6G0vdQB2c_AQ",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/iOpz-AhlQh6G0vdQB2c_AQ",
-                "createdAt": "2026-06-23T07:07:02.330991709Z",
+                "id": "6a3a3135cd5cc2e6116844b3",
+                "entityId": "9uQaHFSaTQyOMOQoYxsYAg",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/9uQaHFSaTQyOMOQoYxsYAg",
+                "createdAt": "2026-06-23T07:09:41.786316581Z",
                 "createdBy": "wHUx0rivTZqNu4fTUbKYTw",
                 "badgeclass": "IDUsZJpNQPuiJpPwmJ8iJw",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://badges.parchment.eu/public/assertions/iOpz-AhlQh6G0vdQB2c_AQ/image",
+                "image": "https://badges.parchment.eu/public/assertions/9uQaHFSaTQyOMOQoYxsYAg/image",
                 "recipient": {
-                    "identity": "sha256$2e6111d4e9d97400df84b07090a068d434ba935bf0c100fc68ce45c67501008a",
+                    "identity": "sha256$ce7ec5f77aeef1344fab028a9c362225f3c1a437b97ecb7b55458519b2170baa",
                     "hashed": true,
                     "type": "url",
-                    "salt": "c8eSI5oabq0dGF2G",
+                    "salt": "kawUJoaxdUcYogMa",
                     "plaintextIdentity": "https://github.com/ARGOeu/argo-messaging"
                 },
-                "issuedOn": "2026-06-23T07:07:02.330994854Z",
+                "issuedOn": "2026-06-23T07:09:41.786319886Z",
                 "narrative": "Repository 'https://github.com/ARGOeu/argo-messaging' at version '19e4402923bf40cfb6e3bf44055a7fbd1ef41665' passed successfully the following quality criteria: QC.Lic QC.Ver QC.Doc QC.Acc QC.Met",
                 "evidence": [
                     {
@@ -4995,7 +4995,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/iOpz-AhlQh6G0vdQB2c_AQ"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/9uQaHFSaTQyOMOQoYxsYAg"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw"
@@ -5007,11 +5007,11 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-iOpz-AhlQh6G0vdQB2c_AQ.png",
+                "imagePath": "uploads/badges/assertion-9uQaHFSaTQyOMOQoYxsYAg.png",
                 "ob3AwardProperties": null
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/iOpz-AhlQh6G0vdQB2c_AQ?identity__url=https%3A//github.com/EOSC-synergy/argo-messaging.assess.sqaaas/commit/2a7c0a4284da7bde61816422f8d0c7b40178f9b2\"><img width=\"120px\" height=\"120px\" src=\"https://badges.parchment.eu/public/assertions/iOpz-AhlQh6G0vdQB2c_AQ/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FiOpz-AhlQh6G0vdQB2c_AQ?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fargo-messaging.assess.sqaaas%2Fcommit%2F2a7c0a4284da7bde61816422f8d0c7b40178f9b2&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fargo-messaging.assess.sqaaas%2Fcommit%2F2a7c0a4284da7bde61816422f8d0c7b40178f9b2"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/9uQaHFSaTQyOMOQoYxsYAg?identity__url=https%3A//github.com/EOSC-synergy/argo-messaging.assess.sqaaas/commit/2a7c0a4284da7bde61816422f8d0c7b40178f9b2\"><img width=\"120px\" height=\"120px\" src=\"https://badges.parchment.eu/public/assertions/9uQaHFSaTQyOMOQoYxsYAg/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2F9uQaHFSaTQyOMOQoYxsYAg?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fargo-messaging.assess.sqaaas%2Fcommit%2F2a7c0a4284da7bde61816422f8d0c7b40178f9b2&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fargo-messaging.assess.sqaaas%2Fcommit%2F2a7c0a4284da7bde61816422f8d0c7b40178f9b2"
         }
     }
 }
