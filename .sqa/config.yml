@@ -15,72 +15,72 @@ sqa_criteria:
     repos:
       github.com/ARGOeu/argo-messaging git:
         commands:
-        - /usr/bin/env sh .sqa/script.boysenberry_creative_piranha.sh
-        container: qc.acc_fuchsia_radiant_bear
+        - /usr/bin/env sh .sqa/script.coral_artistic_boar.sh
+        container: qc.acc_chartreuse_quirky_crocodile
   QC.Doc:
     repos:
       github.com/ARGOeu/argo-messaging find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chartreuse_candid_antelope.sh
-        container: qc.doc_nutmeg_resourceful_griffin
+        - /usr/bin/env sh .sqa/script.mulberry_respectful_emu.sh
+        container: qc.doc_purple_confused_hamster
       github.com/ARGOeu/argo-messaging git:
         commands:
-        - /usr/bin/env sh .sqa/script.cayenne_apathetic_wolverine.sh
-        container: qc.doc_amaranth_apprehensive_penguin
+        - /usr/bin/env sh .sqa/script.mint_trustworthy_leopard.sh
+        container: qc.doc_copper_tough_hyena
       github.com/ARGOeu/argo-messaging markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.orange_cranky_hornbill.sh
-        container: qc.doc_chocolate_amused_dormouse
+        - /usr/bin/env sh .sqa/script.claret_imaginative_cobra.sh
+        container: qc.doc_harlequin_careful_ferret
   QC.Lic:
     repos:
       github.com/ARGOeu/argo-messaging licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.isabelline_goofy_hornbill.sh
-        container: qc.lic_apricot_logical_spren
+        - /usr/bin/env sh .sqa/script.aqua_inspired_bullfrog.sh
+        container: qc.lic_malachite_dreamy_sloth
   QC.Met:
     repos:
       github.com/ARGOeu/argo-messaging cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.lemon_respectful_kiwi.sh
-        container: qc.met_bluebell_melancholy_condor
+        - /usr/bin/env sh .sqa/script.heather_positive_armadillo.sh
+        container: qc.met_flint_hopeful_gecko
       github.com/ARGOeu/argo-messaging validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.coffee_tranquil_ibis.sh
-        container: qc.met_isabelline_peaceful_nighthawk
+        - /usr/bin/env sh .sqa/script.avocado_attentive_koala.sh
+        container: qc.met_cinnabar_rational_seal
   QC.Sec:
     repos:
       github.com/ARGOeu/argo-messaging bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.cream_skeptical_owl.sh
-        container: qc.sec_viridian_nurturing_catfish
+        - /usr/bin/env sh .sqa/script.mango_friendly_squid.sh
+        container: qc.sec_malachite_humble_owl
       github.com/ARGOeu/argo-messaging gosec:
         commands:
-        - /usr/bin/env sh .sqa/script.amaranth_authentic_gibbon.sh
-        container: qc.sec_ultramarine_determined_moth
+        - /usr/bin/env sh .sqa/script.indigo_perceptive_flamingo.sh
+        container: qc.sec_amethyst_scrappy_starfish
   QC.Sty:
     repos:
       github.com/ARGOeu/argo-messaging flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.cinnabar_zealous_dingo.sh
-        container: qc.sty_incarnadine_open_snail
+        - /usr/bin/env sh .sqa/script.navy_open_mandrill.sh
+        container: qc.sty_amethyst_joyful_raccoon
       github.com/ARGOeu/argo-messaging jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.emerald_rational_turkey.sh
-        container: qc.sty_chestnut_blissful_impala
+        - /usr/bin/env sh .sqa/script.eggplant_perky_cockatoo.sh
+        container: qc.sty_chestnut_optimistic_osprey
       github.com/ARGOeu/argo-messaging staticcheck:
         commands:
-        - /usr/bin/env sh .sqa/script.emerald_curious_falcon.sh
-        container: qc.sty_cosmos_protective_starfish
+        - /usr/bin/env sh .sqa/script.chili_spontaneous_opossum.sh
+        container: qc.sty_brown_apprehensive_goose
   QC.Uni:
     repos:
       github.com/ARGOeu/argo-messaging pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.clementine_friendly_wolf.sh
-        container: qc.uni_lagoon_feisty_gerbil
+        - /usr/bin/env sh .sqa/script.coral_open_moth.sh
+        container: qc.uni_currant_humorous_wolf
   QC.Ver:
     repos:
       github.com/ARGOeu/argo-messaging get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cinnamon_frugal_gazelle.sh
-        container: qc.ver_sunset_independent_quoll
+        - /usr/bin/env sh .sqa/script.pine_elated_hornbill.sh
+        container: qc.ver_ivory_diligent_parrot
 timeout: 5400
